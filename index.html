@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tienda de Bebidas</title>
+    <link rel="stylesheet" href="estilos.css" />
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+  <body>
+    <h1>almacen de Bebidas</h1>
+    <p>bebidas de las mejores calidad</p>
+
+    <div>
+      <input type="text" id="searchInput" placeholder="Buscar producto" />
+      <button id="buscarBtn">Buscar</button>
+    </div>
+
+    <div class="productos-container" id="productos"></div>
+
+    <div class="carrito-container" id="carrito">
+      <h2>Tu carrito de compra</h2>
+      <button id="vaciarBtn">Vaciar Carrito</button>
+    </div>
+
+    <div class="resultado-container" id="resultado"></div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

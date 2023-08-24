@@ -1,0 +1,71 @@
+* {
+  text-align: center;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  height: 50px;
+}
+body {
+  background-color: black;
+}
+p {
+  background-color: black;
+  color: white;
+  height: 25px;
+  padding: 2px;
+}
+
+.productos-container {
+  background-color: rgb(46, 44, 44);
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 25px;
+  height: 100%;
+}
+
+.producto-card {
+  background-color: rgb(255, 0, 0);
+  color: black;
+  border: 3px solid rgb(253, 253, 253);
+  width: 250px;
+  height: 250px;
+  padding: 10px;
+  margin: 5px;
+}
+
+/* Agrega una animación a las tarjetas */
+.producto-card {
+  transition: transform 0.5s ease-in-out;
+}
+
+/* Define la animación al pasar el mouse sobre las tarjetas */
+.producto-card:hover {
+  transform: scale(1.05);
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.carrito-container {
+  background-color: rgb(255, 0, 0);
+  color: white;
+  display: inline-table;
+  text-align: center;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 10%;
+  padding: 10px;
+  margin: 10px;
+  max-width: 400px;
+}
+
+.resultado-container {
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 5px;
+}

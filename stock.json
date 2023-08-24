@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "nombre": "Vodka",
+    "precio": 8000,
+    "marca": "Absolut",
+    "imagen": "img/vodka.jpeg"
+  },
+
+  {
+    "id": 2,
+    "nombre": "Whisky",
+    "precio": 6000,
+    "marca": "Johnnie Walker",
+    "imagen": "/img/blue label.jpeg"
+  },
+
+  {
+    "id": 3,
+    "nombre": "Tequila",
+    "precio": 3800,
+    "marca": "Patrón",
+    "imagen": "/img/Don-Julio-Tequila-Blanco-750Ml-3-30587.jpg"
+  },
+
+  {
+    "id": 4,
+    "nombre": "Ron",
+    "precio": 5000,
+    "marca": "Bacardí",
+    "imagen": "/img/ron-bacardi-carta-blanca-750cc.jpg"
+  },
+
+  {
+    "id": 5,
+    "nombre": "Gin",
+    "precio": 8500,
+    "marca": "Tanqueray",
+    "imagen": "img/gin.jpg"
+  }
+]

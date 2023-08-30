@@ -74,12 +74,9 @@ function actualizarCarrito() {
     const productoDiv = document.createElement("div");
     productoDiv.className = "producto-card";
 
-    // Agregar imagen del producto en el carrito
     const imagen = document.createElement("img");
     imagen.src = producto.imagen;
     productoDiv.appendChild(imagen);
-
-    // Agregar nombre y precio del producto en el carrito
     const nombrePrecio = document.createElement("p");
     nombrePrecio.textContent = `${producto.nombre} - $${producto.precio.toFixed(
       2

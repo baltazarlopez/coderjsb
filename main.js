@@ -115,7 +115,7 @@ function cargarDesdeStorage() {
 //Fetch y API
 async function obtenerDatos() {
   try {
-    const response = await fetch("../stock.json");
+    const response = await fetch("./stock.json");
     if (!response.ok) {
       throw new Error("No se pudieron obtener los datos. Inténtalo más tarde.");
     }
